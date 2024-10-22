@@ -2834,6 +2834,22 @@ input, select, textarea {
 			font-size: 1rem;
 		}
 
+	/* Technologies */
+
+		section.post.technologies {
+			ul.icons {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+				column-gap: 50px;
+				row-gap: 50px;
+				li {
+					width: 100px;
+				}
+			}
+		}
+
 /* List */
 
 	ol {
